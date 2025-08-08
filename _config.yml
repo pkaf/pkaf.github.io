@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Praj Kafle"
+title                    : "P Kafle"
 title_separator          : "-"
-name                     : &name "Praj Kafle"
+name                     : &name "Dr. Prajwal Kafle"
 description              : &description "A full-stack DS with an academic background. From the Himalayas"
 url                      : https://pkaf.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,13 +22,13 @@ repository               : "pkaf/pkaf.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_pic.jpeg"
   name             : "Praj Kafle"
-  bio              : "A full-stack DS with an academic background. Extronomer and from the Himalayas"
+  bio              : "I'm a full-stack data scientist with an academic background, shaped by a humble upbringing and a lifelong journey of learning, unlearning, and growth. My path has been guided by hard work, the unwavering support of family, and the generosity of brilliant mentors who continue to inspire me."
   location         : "Sydney"
   employer         : "Sportsbet"
-  uri              : "pkaf/pkaf.github.io"
-  email            : "datanox2020@gmail.com" 
+  uri              : "pkaf.github.io"
+  email            : "kafleprraj@gmail.com" 
 
   # Academic websites
   academia         : # URL
