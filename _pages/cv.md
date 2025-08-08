@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 ## Curriculum Vitae
 
 ### Education
@@ -16,8 +14,10 @@ redirect_from:
 - **B.Sc. & M.Sc. in Physics**, Tribhuvan University — *2002–2007*
 
 ### Work Experience
-### Principal Data Scientist  
-**Sportsbet** *(Remote, 2024 – Present)*
+
+#### Principal Data Scientist  
+
+##### Sportsbet *(Remote, 2024 – Present)*
 
 - Led modelling strategy for Model Driven Generosity, including contextual multi-armed bandits and Double ML frameworks  
 - Advised cross-functional teams (CRM, Marketing, MLOps) on Media Mix Modelling and Customer Retention analytics  
@@ -26,24 +26,24 @@ redirect_from:
 - Built and deployed a Streamlit app for ABatar, enabling analysts to run A/B tests via a no-code interface  
 - Hired, mentored, and guided data scientists and analysts across teams
 
-### Senior Data Scientist  
-**Sportsbet** *(Remote, 2022 – 2023)*
+#### Senior Data Scientist  
+##### Sportsbet *(Remote, 2022 – 2023)*
 
 - Built predictive and prescriptive models (e.g. Generosity Sensitivity, Share-of-Wallet) to optimise marketing offers  
 - Designed and deployed company-wide experimentation platform **ABatar**  
 - Developed and productionised internal utility module **berserker** to streamline DS workflows  
 - Awarded *Best-in-Ground* for outstanding contribution
 
-### Data Scientist  
-**Virtual Gaming World** *(Perth, WA, 2018 – 2021)*
+#### Data Scientist  
+##### Virtual Gaming World *(Perth, WA, 2018 – 2021)*
 
 - Developed attribution and purchase propensity models to drive targeted marketing  
 - Forecasted customer lifetime value using parametric model fitting techniques  
 - Delivered 10+ deployed ML/statistical models (e.g. churn prevention, CSAT, repeat purchase), achieving >5% incremental uplift  
 - Used Monte Carlo simulations to validate game logic for regulatory compliance
 
-### Postdoctoral Fellow  
-**University of Western Australia** *(Perth, WA, 2014 – 2018)*
+#### Postdoctoral Fellow  
+##### University of Western Australia *(Perth, WA, 2014 – 2018)*
 
 - Created a novel clustering algorithm for noisy, high-dimensional astronomical data; published in peer-reviewed journals  
 - Co-authored *Nature* article on stellar classification using neural networks  
@@ -51,7 +51,7 @@ redirect_from:
 - Ranked in top 3% of Early Career Researchers in Astronomy (2017) by citations/publications
 
 
-## 🧠 Skills
+### Skills
 
 - **DS Software Engineering**: Proficient in Python, with strong software carpentry practices  
 - **Data Platforms**: Hands-on experience with Databricks, AWS, PostgreSQL, Tableau and PySpark  
@@ -61,7 +61,7 @@ redirect_from:
 
 ---
 
-## Accomplishments
+### Accomplishments
   - Best-in-Ground Offer, Sportsbet 2024
   - Research Collaboration Awards, UWA 2017
   - Oxford University, IAUS 311, Conference Grant 2016
@@ -71,7 +71,7 @@ redirect_from:
 
 ---
 
-## Publications
+### Publications
   - Published 45 plus scientific and outreach articles
   - A few of my selected research papers
     
@@ -84,6 +84,6 @@ redirect_from:
     For the full list of my papers please visit [arXiv](https://arxiv.org/search/astro-ph?query=Kafle%2C+P+R&searchtype=author&abstracts=hide&order=-announced_date_first&size=50).
 ---
 
-## Service & Leadership
+### Service & Leadership
 
 Currently active in **3 open source python projects** and a couple of pro-bono analytics work.
