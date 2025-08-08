@@ -16,34 +16,40 @@ Education
 
 Work experience
 ======
-* Principal DS 2024: Sportsbet (Remote)
-  * Provided thought leadership to a team of 15 DS
-  * Supported modelling aspect of Model Driven Generosity initiatives
-  * Conceptualised and help team deliver a state-of-art Contenxtual MultiArm Bandit and Double ML framework
-  * Held a role of an internal advisor to various teams (CRM, Marketing, MLOps, Analysts) contributing to design Media Mixing Model and Customer Retention 
-  * Help uplift scientific excellence of the team by introducing Peer Review Process, CRISP-DM blueprint contributing to overall Model Development Life Cycle
-  * Contributed building Model Monitoring, Data Drift, and Feature Store
-  * Developed and deployed a Streamlit app to provide non-coding interface for ABatar for analysts
-  * Hired, mentored and provided thought leadership to cross-functional Data Science teams, Insight Analysts
+### Principal Data Scientist  
+**Sportsbet** *(Remote, 2024 – Present)*
 
-* Senior DS 2022: Sportsbet (Remote)
-  * Built suite of predictive and prescriptive models, including Generosity Sensitivity, Share-of-Wallet models optimising marketing offers
-  * Envisaged, developed and deployed a company wide experimentation platform (ABatar)
-  * Developed and deployed utility module (berserker) for Data Scientists
-  * Recipient of the "Best-in-Ground" offer
+- Led modelling strategy for Model Driven Generosity, including contextual multi-armed bandits and Double ML frameworks  
+- Advised cross-functional teams (CRM, Marketing, MLOps) on Media Mix Modelling and Customer Retention analytics  
+- Championed scientific excellence via peer review process, CRISP-DM adoption, and model development lifecycle improvements  
+- Spearheaded MLOps initiatives: model monitoring, data drift detection, and feature store design  
+- Built and deployed a Streamlit app for ABatar, enabling analysts to run A/B tests via a no-code interface  
+- Hired, mentored, and guided data scientists and analysts across teams
 
-* Data Scientist 2018: Virtual Gaming World (Perth, WA)
-  * Developed attribution and purchase propensity models
-  * Applied parametric model fitting techniques to forecast customer life-time value
-  * Developed and deployed over 10 plus ML/statistical models ranging from subsequent purchase propensity models, churn prevention, CSAT models most tested to deliver incremental uplift of over 5%
-  * Used Monte-Carlo simulations to simulate game mathematics for compliance
+### Senior Data Scientist  
+**Sportsbet** *(Remote, 2022 – 2023)*
 
-* Postdoctoral Fellow 2014: University of Western Australia (Perth, WA)
-  * Developed and published clustering algorithm, designed to discover hidden pattern in noisy, multi-dimensional, heteroscedastic astronomical data
-  * Co-published an article in the Nature Magazine, using neural network scheme to classify various types of stars
-  * Authored and co-published over 40 research papers of high impacts, leaning heavy on advance statistics including Bayesian Inference
-  * Was ranked top 3% (by citation/publication) among Early Career Researcher in Astronomy (2017)
-  
+- Built predictive and prescriptive models (e.g. Generosity Sensitivity, Share-of-Wallet) to optimise marketing offers  
+- Designed and deployed company-wide experimentation platform **ABatar**  
+- Developed and productionised internal utility module **berserker** to streamline DS workflows  
+- Awarded *Best-in-Ground* for outstanding contribution
+
+### Data Scientist  
+**Virtual Gaming World** *(Perth, WA, 2018 – 2021)*
+
+- Developed attribution and purchase propensity models to drive targeted marketing  
+- Forecasted customer lifetime value using parametric model fitting techniques  
+- Delivered 10+ deployed ML/statistical models (e.g. churn prevention, CSAT, repeat purchase), achieving >5% incremental uplift  
+- Used Monte Carlo simulations to validate game logic for regulatory compliance
+
+### Postdoctoral Fellow  
+**University of Western Australia** *(Perth, WA, 2014 – 2018)*
+
+- Created a novel clustering algorithm for noisy, high-dimensional astronomical data; published in peer-reviewed journals  
+- Co-authored *Nature* article on stellar classification using neural networks  
+- Published 40+ high-impact papers with advanced statistical methods (e.g. Bayesian inference)  
+- Ranked in top 3% of Early Career Researchers in Astronomy (2017) by citations/publications
+
 Skills
 ======
 * Skill 1
