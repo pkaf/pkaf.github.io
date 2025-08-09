@@ -9,8 +9,8 @@ redirect_from:
 ## Curriculum Vitae
 
 ### Education
-- **Ph.D. in Astrophysics**, University of Sydney — *2014*  
-- **B.Sc. & M.Sc. in Physics**, Tribhuvan University — *2002–2007*
+- *Ph.D. in Astrophysics*, University of Sydney — *2014*  
+- *B.Sc. & M.Sc. in Physics*, Tribhuvan University — *2002–2007*
 
 ### Work Experience
 
@@ -52,11 +52,11 @@ redirect_from:
 
 ### Skills
 
-- **DS Software Engineering**: Proficient in Python, with strong software carpentry practices  
-- **Data Platforms**: Hands-on experience with Databricks, AWS, PostgreSQL, Tableau and PySpark  
-- **Experimental Design & Causal Inference**: Subject matter expert in experimentation, Bayesian methods, causal inference, and reinforcement learning  
-- **Machine Learning & Optimization**: Expert in statistical modelling, large-scale ML systems, and simulation techniques including MCMC, HMC, and more  
-- **Model Development Lifecycle**: Advocate of CRISP-DM framework and MLOps integration for achieving scientific operational excellence
+- *DS Software Engineering*: Proficient in Python, with strong software carpentry practices  
+- *Data Platforms*: Hands-on experience with Databricks, AWS, PostgreSQL, Tableau and PySpark  
+- *Experimental Design & Causal Inference*: Subject matter expert in experimentation, Bayesian methods, causal inference, and reinforcement learning  
+- *Machine Learning & Optimization*: Expert in statistical modelling, large-scale ML systems, and simulation techniques including MCMC, HMC, and more  
+- *Model Development Lifecycle*: Advocate of CRISP-DM framework and MLOps integration for achieving scientific operational excellence
 
 ---
 
@@ -79,7 +79,7 @@ redirect_from:
   * [On the shoulders of giants: properties of the stellar halo and the Milky Way mass distribution, ApJ, 2014, 794](https://ui.adsabs.harvard.edu/abs/2014ApJ...794...59K/abstract)
   * [Galaxy Tagging: photometric redshift refinement and group richness enhancement, MNRAS, 2018, 479, 376](https://academic.oup.com/mnras/article/479/3/3746/5039667)
   
--  For the full list of my papers please visit [arXiv](https://arxiv.org/search/astro-ph?query=Kafle%2C+P+R&searchtype=author&abstracts=hide&order=-announced_date_first&size=50).
+- For the full list of my papers please visit [arXiv](https://arxiv.org/search/astro-ph?query=Kafle%2C+P+R&searchtype=author&abstracts=hide&order=-announced_date_first&size=50).
 ---
 
 ### Service & Leadership

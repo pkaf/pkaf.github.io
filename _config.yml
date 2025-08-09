@@ -23,10 +23,9 @@ repository               : "pkaf/pkaf.github.io"
 author:
   # Biographic information
   avatar           : "profile_pic.jpeg"
-  name             : "Praj Kafle"
-  bio              : "I'm a full-stack data scientist with an academic background, shaped by a humble upbringing and a lifelong journey of learning, unlearning, and growth. My path has been guided by hard work, the unwavering support of family, and the generosity of brilliant mentors who continue to inspire me."
+  name             : "P Kafle"
+  bio              : "Full-stack Data Scientist, Ex-astronomer, Dad"
   location         : "Sydney"
-  employer         : "Sportsbet"
   uri              : "pkaf.github.io"
   email            : "kafleprraj@gmail.com" 
 
