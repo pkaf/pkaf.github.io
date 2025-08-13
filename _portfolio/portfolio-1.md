@@ -1,7 +1,10 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "ABC World Today Interview "
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/RotationCurve_MW_Kafle2012.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Here’s a [short interview](https://www.abc.net.au/listen/programs/worldtoday/australian-scientist-reveals-milky-way-contains/5809556
+) with me on ABC’s World Today, covering our discovery that the Milky Way contains only half as much dark matter as previously thought.
+
+The picture shows how the different components of the Milky Way Galaxy—its disk, central bulge, and surrounding dark matter halo—jointly contribute to its overall mass and sustain an almost flat velocity curve as you move outward, allowing us to calculate the galaxy’s total mass.

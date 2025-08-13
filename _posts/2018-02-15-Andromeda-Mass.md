@@ -1,7 +1,7 @@
 ---
 title: 'When Galaxies Collide Size Matters'
 date: 2018-02-15
-permalink: /posts/2018/02/15/blog-post-1/
+permalink: /posts/2018/02/15/
 tags:
   - astronomy
   - conversation
