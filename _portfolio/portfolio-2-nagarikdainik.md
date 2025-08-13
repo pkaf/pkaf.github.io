@@ -1,6 +1,6 @@
 ---
 title: "The Lime Light"
-excerpt: "Front Page Coverage of Our Latest Discovery about the MW Galaxy and its Weight, in Nepali National Daily.<br/><img src='/images/NagarikNews_Profile.jpg' width="400" height="700">"
+excerpt: "Front Page Coverage of Our Latest Discovery about the MW Galaxy and its Weight, in Nepali National Daily.<br/><img src='/images/NagarikNews_Profile.jpg' width='400' height='700'>"
 collection: portfolio
 ---
 
