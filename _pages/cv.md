@@ -71,7 +71,7 @@ redirect_from:
 ---
 
 ### Publications
-- Published 45 plus scientific and outreach articles
+- Have published 45 plus scientific peer reviewed paper, and multiple outreach articles
 - A few of my selected research papers
   * [The need for speed: escape velocity and dynamical mass measurements of the Andromeda Galaxy, MNRAS, 2018, 475, 4043](https://academic.oup.com/mnras/article/475/3/4043/4797184)
   * [Kinematics of the stellar halo and the mass distribution of the Milky Way using BHB stars, ApJ, 761, 2](https://iopscience.iop.org/article/10.1088/0004-637X/761/2/98)
