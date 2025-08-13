@@ -211,7 +211,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
-
+  # _diary
+  - scope:
+      path: ""        # all files
+      type: diary     # applies to the `_diary` collection
+    values:
+      layout: single
+      header:
+        image: /images/diary-header.jpg   # path to your fixed header image
+        caption: "Diary of a Data Scientist"
 
 # Sass/SCSS
 sass:
