@@ -11,7 +11,7 @@ Welcome to my site.
 
 I’m a full-stack data scientist with a Doctorate in Astrophysics. Originally from the Himalayas, I now call Australia home.
 
-I’m the product of a humble upbringing and a lifelong journey of learning, unlearning, and growth. My path has been shaped by the unwavering support of my family, the generosity of brilliant mentors who continue to inspire me and with sprinkle of hard work.
+I’m the product of a humble upbringing and a lifelong journey of learning, unlearning, and growth. My path has been shaped by the unwavering support of my family, the generosity of brilliant mentors who continue to inspire me, and with sprinkle of hard work.
 
 Earlier in my academic career, I developed a physically motivated, unsupervised clustering algorithm in Python, trained on data from the GAMA Galaxy Redshift Survey [[1]](https://academic.oup.com/mnras/article/479/3/3746/5039667). This [algorithm](https://github.com/pkaf/galtag) refined galaxy distance (redshift) measurements by associating them with their corresponding galaxy clusters.
 
