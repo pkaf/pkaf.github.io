@@ -5,6 +5,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+### CV
 
 ### Education
 - *Ph.D. in Astrophysics*, University of Sydney — *2014*  
@@ -80,4 +81,4 @@ redirect_from:
 
 ### Service & Leadership
 
-Currently active in **3 open source python projects** and a couple of pro-bono analytics work.
+Currently active in a few **open source python projects** and a couple of pro-bono analytics work.
