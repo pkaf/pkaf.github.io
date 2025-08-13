@@ -1,6 +1,6 @@
 ---
 title: "ABC World Today and SBS Interview On Our Latest Discovery"
-excerpt: "Rotation Curve of the Milky Way Galaxy<br/><img src='/images/RotationCurve_MW_Kafle2012.png'>"
+excerpt: "Rotation Curve of the Milky Way Galaxy<br/><img src='/images/RotationCurve_MW_Kafle2012.png' width="400" height="300">"
 collection: portfolio
 ---
 
