@@ -1,6 +1,6 @@
 ---
-title: "The Front Page Coverage of Our Discovery in Nepali National Daily."
-excerpt: "Media Coverage in a Nepali National Daily<br/><img src='/images/NagarikNews_Profile.jpg'>"
+title: "The Lime Light"
+excerpt: "Front Page Coverage of Our Latest Discovery about the MW Galaxy and its Weight, in Nepali National Daily.<br/><img src='/images/NagarikNews_Profile.jpg'>"
 collection: portfolio
 ---
 
