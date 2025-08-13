@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "P Kafle"
+title                    : "de Kaf"
 title_separator          : "-"
-name                     : &name "Dr. Prajwal Kafle"
-description              : &description "An extronomer turned full-stack Data Scientist. From the Himalayas."
+name                     : &name "Dr. Kafle"
+description              : &description "PRK GitHub Blog Site."
 url                      : https://pkaf.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pkaf/pkaf.github.io"
@@ -23,9 +23,10 @@ repository               : "pkaf/pkaf.github.io"
 author:
   # Biographic information
   avatar           : "profile_pic.jpeg"
-  name             : "P Kafle"
-  bio              : "Full-stack Data Scientist, Ex-astronomer, Dad"
-  location         : "Sydney"
+  name             : "de Kaf"
+  title            : "Principal Data Scientist"
+  bio              : "An extronomer turned full-stack Data Scientist. From the Himalayas."
+  location         : "Sydney | Australia"
   uri              : "pkaf.github.io"
   email            : "kafleprraj@gmail.com" 
 
@@ -41,14 +42,6 @@ author:
   linkedin         : "https://www.linkedin.com/in/prajwal-k-46027566/"
   medium           : "https://medium.com/@oldyak"
   
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
