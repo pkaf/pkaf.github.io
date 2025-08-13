@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "de Kaf"
+title                    : "de-Kaf"
 title_separator          : "-"
 name                     : &name "Dr. Kafle"
 description              : &description "PRK GitHub Blog Site."
@@ -23,7 +23,7 @@ repository               : "pkaf/pkaf.github.io"
 author:
   # Biographic information
   avatar           : "profile_pic.jpeg"
-  name             : "de Kaf"
+#  name             : "de-Kaf"
   title            : "Principal Data Scientist"
   bio              : "An extronomer turned full-stack Data Scientist. From the Himalayas."
   location         : "Sydney | Australia"
@@ -31,7 +31,6 @@ author:
   email            : "kafleprraj@gmail.com" 
 
   # Academic websites
-  academia         : # URL
   arxiv            : "https://arxiv.org/search/astro-ph?query=Kafle%2C+P+R&searchtype=author&abstracts=hide&order=-announced_date_first&size=50"
   googlescholar    : "https://scholar.google.com/citations?user=qwj5Ww8AAAAJ&hl=en"
 
