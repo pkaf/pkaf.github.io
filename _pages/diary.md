@@ -2,6 +2,7 @@
 layout: archive
 title: "Diary"
 permalink: /diary/
+author_profile: true
 ---
 
 {% for entry in site.diary %}

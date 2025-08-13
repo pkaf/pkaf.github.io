@@ -6,8 +6,6 @@ redirect_from:
   - /resume
 ---
 
-## Curriculum Vitae
-
 ### Education
 - *Ph.D. in Astrophysics*, University of Sydney — *2014*  
 - *B.Sc. & M.Sc. in Physics*, Tribhuvan University — *2002–2007*
