@@ -1,6 +1,6 @@
 ---
 title: "ABC World Today and SBS Interview On Our Latest Discovery"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/RotationCurve_MW_Kafle2012.png'>"
+excerpt: "Rotation Curve of the Milky Way Galaxy<br/><img src='/images/RotationCurve_MW_Kafle2012.png'>"
 collection: portfolio
 ---
 
