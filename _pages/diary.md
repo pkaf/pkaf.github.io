@@ -5,7 +5,7 @@ permalink: /diary/
 type: "diary"
 ---
 
-With the intention of sharing knowledge more widely—and, importantly, keeping a record for myself—I’m starting to jot down thoughts here. 
+With the aim of sharing the daily amusements of a data scientist more broadly—and, importantly, keeping a personal record of progress—I’m beginning to jot down my thoughts here.
 
 My plan is to write at least three working days a week. 
 
