@@ -19,7 +19,7 @@ Similarly, during my doctorate I studied and used the kinematic properties of th
 
 Out of academia, I got to upskill in the world of commercial data science because of a few caring mentors I met along the way. My interests encompasses all three core operation of Data Science, namely, 
     
-  * Machine Learning Ops: End-to-end ML Model Delivery, and Drifts, Decay and Monitoring
+  * Machine Learning Ops: End-to-end ML Model Delivery from Scoping to Productionisation, Drifts, Decay and Monitoring
 
   * Experimentation Ops: Stat and Commercial Significance, A/B Testing, Causal Inference
     
