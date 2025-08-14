@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my web-space. I’m a full-stack data scientist with a Doctorate in Astrophysics. Originally from the Himalayas, I now call Australia home.
+Welcome to my little corner of the web, where I share my musings, interests, and biases.
+
+I’m a full-stack data scientist with a Doctorate in Astrophysics. Originally from the Himalayas, I now call Australia home.
 
 I’m the product of a humble upbringing and a lifelong journey of learning, unlearning, and growth. My path has been shaped by the unwavering support of my family, the generosity of brilliant mentors who continue to inspire me, and with a great deal of hard work.
 
