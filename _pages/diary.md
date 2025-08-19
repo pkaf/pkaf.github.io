@@ -2,6 +2,7 @@
 title: "Diary"
 layout: "archive"
 permalink: /diary/
+author_profile: True
 type: "diary"
 ---
 
