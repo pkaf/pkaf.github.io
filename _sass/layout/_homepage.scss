@@ -1,0 +1,165 @@
+/* ==========================================================================
+   HOMEPAGE LAYOUT (MATTEO STYLE)
+   ========================================================================== */
+
+.homepage-layout {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 40px 20px !important;
+  float: none !important;
+  clear: both;
+}
+
+/* Centered Profile */
+.author__profile-centered {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.author__avatar-centered {
+  margin-bottom: 20px;
+  
+  .avatar-img-centered {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--global-border-color);
+    padding: 5px;
+    filter: grayscale(100%); /* Matteo uses a black & white avatar */
+    transition: filter 0.3s ease;
+
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}
+
+.author__content-centered {
+  margin-bottom: 15px;
+
+  .author__name-centered {
+    font-size: 2.2em;
+    font-weight: 700;
+    margin: 10px 0 5px 0;
+    color: var(--global-text-color);
+  }
+
+  .author__title-centered {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--global-link-color); /* teal accent */
+    margin: 0 0 10px 0;
+  }
+
+  .author__bio-centered {
+    font-size: 1.05em;
+    color: var(--global-text-color-light);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+}
+
+/* Centered Social Icons */
+.author__urls-centered {
+  display: block;
+  margin: 20px 0;
+
+  .social-icons-centered {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    li {
+      margin: 0;
+
+      a {
+        color: var(--global-text-color-light);
+        font-size: 1.5rem;
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+          color: var(--global-link-color);
+        }
+      }
+    }
+  }
+}
+
+/* Homepage content area (full width, centered) */
+.homepage-content-wrapper {
+  margin-bottom: 50px;
+  line-height: 1.7;
+  font-size: 1.05em;
+
+  p {
+    margin-bottom: 1.5em;
+  }
+}
+
+/* Recent Posts Section */
+.homepage-sections {
+  border-top: 1px solid var(--global-border-color);
+  padding-top: 40px;
+  margin-top: 40px;
+
+  .section-title {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+.posts-list-centered {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.post-card {
+  padding: 20px;
+  background: var(--global-code-background-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-color: var(--global-link-color);
+  }
+
+  .post-card-date {
+    font-size: 0.85em;
+    color: var(--global-text-color-light);
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .post-card-title {
+    font-size: 1.3em;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-link-color);
+      }
+    }
+  }
+
+  .post-card-excerpt {
+    font-size: 0.95em;
+    color: var(--global-text-color);
+    margin: 0;
+    line-height: 1.5;
+  }
+}
