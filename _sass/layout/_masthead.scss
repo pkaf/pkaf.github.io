@@ -45,12 +45,33 @@
 }
 
 .masthead__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+  }
+}
+
+.masthead__brand {
+  font-family: $sans-serif-narrow;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.15em;
+  white-space: nowrap;
+  
+  a {
+    color: var(--global-masthead-link-color) !important;
+    text-decoration: none;
+    
+    &:hover {
+      color: var(--global-masthead-link-color-hover) !important;
+    }
   }
 }
 

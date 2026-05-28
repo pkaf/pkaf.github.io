@@ -15,7 +15,7 @@ Outside of academia, my interests have grown across three core areas of Data Sci
     
 * **Machine Learning and LLM Ops:** End-to-end ML Model Delivery from Scoping to Productionisation. Agentic AI frameworks and orchestration.
 * **Experimentation Ops:** Statistical and Commercial Significance, A/B Testing, Causal Inference.
-* **Scientific Excellence Ops:** Model Delivery Life Cycle within CRISP-DM formalism.
+* **Scientific Excellence Ops:** Tie Model Delivery Life Cycle to the [CRISP-DM formalism](https://en.wikipedia.org/wiki/Cross-Industry_Standard_Process_for_Data_Mining).
     
 I primarily code in Python, love to contribute to open-source Data Science initiatives, and actively support internal shared codebases.
 
