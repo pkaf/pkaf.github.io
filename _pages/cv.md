@@ -60,7 +60,7 @@ redirect_from:
 ---
 
 ### Accomplishments
-- Best-in-Ground Offer, Sportsbet 2024
+- Best-in-Ground Award, Sportsbet 2024
 - Research Collaboration Awards, UWA 2017
 - Oxford University, IAUS 311, Conference Grant 2016
 - Chinese Academy of Sciences, IAUS 298 Grant 2013
@@ -70,8 +70,8 @@ redirect_from:
 ---
 
 ### Publications
-- Have published 45 plus scientific peer reviewed paper, and multiple outreach articles
-- A few of my selected research papers
+- Have published 45+ scientific peer-reviewed papers, and multiple outreach articles.
+- A few of my selected research papers:
   * [The need for speed: escape velocity and dynamical mass measurements of the Andromeda Galaxy, MNRAS, 2018, 475, 4043](https://academic.oup.com/mnras/article/475/3/4043/4797184)
   * [Kinematics of the stellar halo and the mass distribution of the Milky Way using BHB stars, ApJ, 761, 2](https://iopscience.iop.org/article/10.1088/0004-637X/761/2/98)
   * [On the shoulders of giants: properties of the stellar halo and the Milky Way mass distribution, ApJ, 2014, 794](https://ui.adsabs.harvard.edu/abs/2014ApJ...794...59K/abstract)
