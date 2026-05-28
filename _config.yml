@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "de-Kaf"
+title                    : "Prajwal Kafle"
 title_separator          : "-"
 name                     : &name "Dr. Kafle"
 description              : &description "PRK GitHub Blog Site."
@@ -23,7 +23,7 @@ repository               : "pkaf/pkaf.github.io"
 author:
   # Biographic information
   avatar           : "profile_pic.jpeg"
-#  name             : "de-Kaf"
+  name             : "Dr. Kafle"
   title            : "Principal Data Scientist"
   bio              : "An ex-astronomer turned full-stack Data Scientist. From the Himalayas."
   location         : "Sydney | Australia"

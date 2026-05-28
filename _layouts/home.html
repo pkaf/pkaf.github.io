@@ -10,73 +10,129 @@ layout: default
 
 <div id="main" role="main" class="homepage-layout">
   
-  <!-- Centered Author Profile (Matteo Courthoud Style) -->
-  <div class="author__profile-centered">
+  <!-- Two-Column Author Profile (Matteo Courthoud Style with Uluru Background) -->
+  <div class="author__profile-section">
     {% assign author = site.author %}
-    <div class="author__avatar-centered">
-      {% if author.avatar contains "://" %}
-        <img src="{{ author.avatar }}" alt="{{ author.name }}" class="avatar-img-centered" fetchpriority="high" />
-      {% else %}
-        <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" class="avatar-img-centered" alt="{{ author.name }}" fetchpriority="high" />
-      {% endif %}
+    
+    <div class="author__column-left">
+      <div class="author__avatar-centered">
+        {% if author.avatar contains "://" %}
+          <img src="{{ author.avatar }}" alt="{{ author.name }}" class="avatar-img-centered" fetchpriority="high" />
+        {% else %}
+          <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" class="avatar-img-centered" alt="{{ author.name }}" fetchpriority="high" />
+        {% endif %}
+      </div>
+
+      <!-- Social Links -->
+      <div class="author__urls-centered">
+        <ul class="social-icons-centered">
+          {% if author.email %}
+            <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true" title="Email"></i></a></li>
+          {% endif %}
+          {% if author.github %}
+            <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true" title="GitHub"></i></a></li>
+          {% endif %}
+          {% if author.linkedin %}
+            <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true" title="LinkedIn"></i></a></li>
+          {% endif %}
+          {% if author.googlescholar %}
+            <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw" title="Google Scholar"></i></a></li>
+          {% endif %}
+          {% if author.arxiv %}
+            <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw" title="arXiv"></i></a></li>
+          {% endif %}
+          {% if author.medium %}
+            <li><a href="{{ author.medium }}"><i class="fab fa-fw fa-medium" aria-hidden="true" title="Medium"></i></a></li>
+          {% endif %}
+        </ul>
+      </div>
     </div>
 
-    <div class="author__content-centered">
-      <h1 class="author__name-centered">{{ author.name }}</h1>
-      {% if author.title %}
-        <h2 class="author__title-centered">{{ author.title }}</h2>
-      {% endif %}
-      {% if author.bio %}
-        <p class="author__bio-centered">{{ author.bio }}</p>
-      {% endif %}
+    <div class="author__column-right">
+      <div class="author__intro-text">
+        {{ content }}
+      </div>
+      <a href="{{ '/cv/' | prepend: base_path }}" class="btn--download-cv">Download CV</a>
     </div>
 
-    <!-- Centered Social Links -->
-    <div class="author__urls-centered">
-      <ul class="social-icons-centered">
-        {% if author.email %}
-          <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true" title="Email"></i></a></li>
-        {% endif %}
-        {% if author.github %}
-          <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true" title="GitHub"></i></a></li>
-        {% endif %}
-        {% if author.linkedin %}
-          <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true" title="LinkedIn"></i></a></li>
-        {% endif %}
-        {% if author.googlescholar %}
-          <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw" title="Google Scholar"></i></a></li>
-        {% endif %}
-        {% if author.arxiv %}
-          <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw" title="arXiv"></i></a></li>
-        {% endif %}
-        {% if author.medium %}
-          <li><a href="{{ author.medium }}"><i class="fab fa-fw fa-medium" aria-hidden="true" title="Medium"></i></a></li>
-        {% endif %}
-      </ul>
+    <!-- Uluru Background Image -->
+    <div class="homepage-bg-image">
+      <img src="{{ '/images/uluru.png' | prepend: base_path }}" alt="Uluru Mountain Background" />
     </div>
   </div>
 
-  <!-- Page Content (Intro) -->
-  <article class="homepage-content-wrapper">
-    <div class="page__content" itemprop="text">
-      {{ content }}
-    </div>
-  </article>
-
-  <!-- Recent Posts Underneath -->
   <div class="homepage-sections">
-    <div class="recent-posts-centered">
-      <h2 class="section-title">Recent Posts</h2>
-      <div class="posts-list-centered">
-        {% for post in site.posts limit:3 %}
-          <div class="post-card">
-            <span class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</span>
-            <h3 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-            <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
-          </div>
+    <!-- Posts -->
+    <section class="hp-section">
+      <header class="hp-section__header">
+        <h2 class="hp-section__title">Posts</h2>
+        <a class="hp-section__cta" href="{{ '/year-archive/' | relative_url }}">See all</a>
+      </header>
+      <div class="hp-cards hp-cards--stack">
+        {% for post in site.posts limit:4 %}
+          <article class="hp-card">
+            <div class="hp-card__meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+            <h3 class="hp-card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="hp-card__excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+          </article>
         {% endfor %}
       </div>
-    </div>
+    </section>
+
+    <!-- Projects (Portfolio collection) -->
+    <section class="hp-section">
+      <header class="hp-section__header">
+        <h2 class="hp-section__title">Projects</h2>
+        <a class="hp-section__cta" href="{{ '/portfolio/' | relative_url }}">See all</a>
+      </header>
+      <div class="hp-cards hp-cards--grid">
+        {% assign projects = site.portfolio | sort: 'date' | reverse %}
+        {% for item in projects limit:4 %}
+          <article class="hp-card">
+            <div class="hp-card__meta">
+              {% if item.date %}{{ item.date | date: "%Y" }}{% endif %}
+              {% if item.date and item.collection %} · {% endif %}
+              {% if item.collection %}{{ item.collection | capitalize }}{% endif %}
+            </div>
+            <h3 class="hp-card__title"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+            {% if item.excerpt %}
+              <p class="hp-card__excerpt">{{ item.excerpt | strip_html | truncate: 220 }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- Research (Publications collection) -->
+    <section class="hp-section">
+      <header class="hp-section__header">
+        <h2 class="hp-section__title">Research</h2>
+        <a class="hp-section__cta" href="{{ '/publications/' | relative_url }}">See all</a>
+      </header>
+      <div class="hp-cards hp-cards--stack">
+        {% assign pubs = site.publications | sort: 'date' | reverse %}
+        {% for pub in pubs limit:3 %}
+          <article class="hp-card hp-card--compact">
+            <div class="hp-card__meta">{{ pub.date | date: "%Y" }}</div>
+            <h3 class="hp-card__title"><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></h3>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="hp-section">
+      <header class="hp-section__header">
+        <h2 class="hp-section__title">Contact</h2>
+      </header>
+      <div class="hp-contact">
+        {% assign author = site.author %}
+        {% if author.location %}<div class="hp-contact__row"><span class="hp-contact__k">Location</span><span class="hp-contact__v">{{ author.location }}</span></div>{% endif %}
+        {% if author.email %}<div class="hp-contact__row"><span class="hp-contact__k">Email</span><span class="hp-contact__v"><a href="mailto:{{ author.email }}">{{ author.email }}</a></span></div>{% endif %}
+        {% if author.github %}<div class="hp-contact__row"><span class="hp-contact__k">GitHub</span><span class="hp-contact__v"><a href="https://github.com/{{ author.github }}">@{{ author.github }}</a></span></div>{% endif %}
+        {% if author.linkedin %}<div class="hp-contact__row"><span class="hp-contact__k">LinkedIn</span><span class="hp-contact__v"><a href="https://www.linkedin.com/in/{{ author.linkedin }}">{{ author.linkedin }}</a></span></div>{% endif %}
+      </div>
+    </section>
   </div>
 
 </div>
