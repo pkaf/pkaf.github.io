@@ -174,7 +174,7 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 250px;
+  min-width: 0;
   background: var(--global-bg-color);
   flex-grow: 1;
   display: flex;
@@ -216,6 +216,13 @@
       &:last-child {
         a {
           margin-right: 0;
+        }
+      }
+
+      @media (max-width: 768px) {
+        &:not(.persist) {
+          min-width: 200px !important;
+          display: inline-block !important;
         }
       }
     }
