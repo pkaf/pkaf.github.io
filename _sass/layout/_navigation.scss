@@ -176,6 +176,10 @@
   position: relative;
   min-width: 250px;
   background: var(--global-bg-color);
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
   a {
     display: block;
@@ -208,15 +212,6 @@
     li {
       display: table-cell;
       vertical-align: middle;
-
-      &:first-child {
-        font-weight: bold;
-        text-wrap: wrap;
-
-        a {
-          margin-left: 0;
-        }
-      }
 
       &:last-child {
         a {

@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .homepage-layout {
-  max-width: 1000px !important;
+  max-width: 1400px !important;
   margin: 0 auto !important;
   padding: 40px 20px !important;
   float: none !important;
@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 24px;
+  gap: 49px;
   padding: 20px 0 120px 0;
   margin-bottom: 20px;
   min-height: calc(100vh - 130px);
@@ -28,7 +28,7 @@
     flex-direction: row;
     align-items: center;
     text-align: left;
-    gap: 48px;
+    gap: 78px;
     padding: 40px 0 160px 0;
     min-height: calc(100vh - 160px);
   }
@@ -41,7 +41,7 @@
   align-items: center;
 
   @include breakpoint($small) {
-    flex: 0 0 180px;
+    flex: 0 0 264px;
     align-items: flex-start;
   }
 }
@@ -59,8 +59,8 @@
   margin-bottom: 15px;
   
   .avatar-img-centered {
-    width: 170px;
-    height: 170px;
+    width: 204px;
+    height: 204px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--global-border-color);
@@ -68,8 +68,8 @@
     transition: transform 0.3s ease;
 
     @include breakpoint($small) {
-      width: 220px;
-      height: 220px;
+      width: 264px;
+      height: 264px;
     }
 
     &:hover {

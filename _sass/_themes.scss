@@ -54,8 +54,8 @@ $caption-font-family        : $serif;
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
-$large                      : 1100px !default;
-$x-large                    : 1440px !default;
+$large                      : 1540px !default;
+$x-large                    : 2016px !default;
 
 /* ==========================================================================
    Grid
@@ -67,7 +67,7 @@ $right-sidebar-width-wide   : auto;
 
 $susy: (
     columns: 12,
-    column-width: 120px,
+    column-width: 168px,
     gutters: 1/4,
     math: fluid,
     output: float,
